@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		854494B1274B36C20090DE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B0274B36C20090DE05 /* AppDelegate.swift */; };
 		854494B3274B36C20090DE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B2274B36C20090DE05 /* SceneDelegate.swift */; };
-		854494B5274B36C20090DE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B4274B36C20090DE05 /* ViewController.swift */; };
+		854494B5274B36C20090DE05 /* ListaLembreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B4274B36C20090DE05 /* ListaLembreteViewController.swift */; };
 		854494B8274B36C20090DE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854494B6274B36C20090DE05 /* Main.storyboard */; };
 		854494BA274B36C40090DE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854494B9274B36C40090DE05 /* Assets.xcassets */; };
 		854494BD274B36C40090DE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854494BB274B36C40090DE05 /* LaunchScreen.storyboard */; };
 		854494C5274B37270090DE05 /* Lembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494C4274B37270090DE05 /* Lembrete.swift */; };
+		854494C7274B4AAB0090DE05 /* LembreteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494C6274B4AAB0090DE05 /* LembreteCell.swift */; };
+		854494C9274B562F0090DE05 /* DetalheLembreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494C8274B562F0090DE05 /* DetalheLembreteViewController.swift */; };
+		854494CB274B5D690090DE05 /* ListaLembreteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494CA274B5D690090DE05 /* ListaLembreteDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		854494AD274B36C20090DE05 /* Lembretes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lembretes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854494B0274B36C20090DE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854494B2274B36C20090DE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		854494B4274B36C20090DE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		854494B4274B36C20090DE05 /* ListaLembreteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLembreteViewController.swift; sourceTree = "<group>"; };
 		854494B7274B36C20090DE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		854494B9274B36C40090DE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854494BC274B36C40090DE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854494BE274B36C40090DE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854494C4274B37270090DE05 /* Lembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lembrete.swift; sourceTree = "<group>"; };
+		854494C6274B4AAB0090DE05 /* LembreteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteCell.swift; sourceTree = "<group>"; };
+		854494C8274B562F0090DE05 /* DetalheLembreteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheLembreteViewController.swift; sourceTree = "<group>"; };
+		854494CA274B5D690090DE05 /* ListaLembreteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLembreteDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				854494B0274B36C20090DE05 /* AppDelegate.swift */,
 				854494B2274B36C20090DE05 /* SceneDelegate.swift */,
-				854494B4274B36C20090DE05 /* ViewController.swift */,
+				854494B4274B36C20090DE05 /* ListaLembreteViewController.swift */,
 				854494B6274B36C20090DE05 /* Main.storyboard */,
 				854494B9274B36C40090DE05 /* Assets.xcassets */,
 				854494BB274B36C40090DE05 /* LaunchScreen.storyboard */,
 				854494BE274B36C40090DE05 /* Info.plist */,
 				854494C4274B37270090DE05 /* Lembrete.swift */,
+				854494C6274B4AAB0090DE05 /* LembreteCell.swift */,
+				854494C8274B562F0090DE05 /* DetalheLembreteViewController.swift */,
+				854494CA274B5D690090DE05 /* ListaLembreteDataSource.swift */,
 			);
 			path = Lembretes;
 			sourceTree = "<group>";
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854494B5274B36C20090DE05 /* ViewController.swift in Sources */,
+				854494B5274B36C20090DE05 /* ListaLembreteViewController.swift in Sources */,
 				854494C5274B37270090DE05 /* Lembrete.swift in Sources */,
 				854494B1274B36C20090DE05 /* AppDelegate.swift in Sources */,
+				854494C7274B4AAB0090DE05 /* LembreteCell.swift in Sources */,
+				854494C9274B562F0090DE05 /* DetalheLembreteViewController.swift in Sources */,
+				854494CB274B5D690090DE05 /* ListaLembreteDataSource.swift in Sources */,
 				854494B3274B36C20090DE05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
