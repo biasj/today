@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851B24152753BEF100291A0D /* LembreteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B24142753BEF100291A0D /* LembreteDataSource.swift */; };
+		851B24172753BFC900291A0D /* DetalheLembreteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */; };
 		853F504B2752F50D00ED984B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F504A2752F50D00ED984B /* AppDelegate.swift */; };
 		853F504D2752F50D00ED984B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F504C2752F50D00ED984B /* SceneDelegate.swift */; };
 		853F504F2752F50D00ED984B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F504E2752F50D00ED984B /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851B24142753BEF100291A0D /* LembreteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteDataSource.swift; sourceTree = "<group>"; };
+		851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheLembreteDataSource.swift; sourceTree = "<group>"; };
 		853F50472752F50D00ED984B /* Lembretes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lembretes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853F504A2752F50D00ED984B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853F504C2752F50D00ED984B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				853F505E2752F54800ED984B /* Lembrete.swift */,
 				853F50602753053400ED984B /* LembreteCell.swift */,
 				853F506427532D1900ED984B /* DetalheLembreteViewController.swift */,
+				851B24142753BEF100291A0D /* LembreteDataSource.swift */,
+				851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */,
 			);
 			path = Lembretes;
 			sourceTree = "<group>";
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B24152753BEF100291A0D /* LembreteDataSource.swift in Sources */,
 				853F504F2752F50D00ED984B /* ViewController.swift in Sources */,
 				853F505F2752F54800ED984B /* Lembrete.swift in Sources */,
 				853F504B2752F50D00ED984B /* AppDelegate.swift in Sources */,
+				851B24172753BFC900291A0D /* DetalheLembreteDataSource.swift in Sources */,
 				853F50612753053400ED984B /* LembreteCell.swift in Sources */,
 				853F506527532D1900ED984B /* DetalheLembreteViewController.swift in Sources */,
 				853F504D2752F50D00ED984B /* SceneDelegate.swift in Sources */,
