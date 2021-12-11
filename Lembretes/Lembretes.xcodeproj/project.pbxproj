@@ -66,20 +66,52 @@
 		853F50492752F50D00ED984B /* Lembretes */ = {
 			isa = PBXGroup;
 			children = (
+				85AD74022764F66200411633 /* View */,
+				85AD74012764F64100411633 /* ViewController */,
+				85AD74002764F63700411633 /* Model */,
 				853F504A2752F50D00ED984B /* AppDelegate.swift */,
 				853F504C2752F50D00ED984B /* SceneDelegate.swift */,
-				853F504E2752F50D00ED984B /* ViewController.swift */,
-				853F50502752F50D00ED984B /* Main.storyboard */,
 				853F50532752F50E00ED984B /* Assets.xcassets */,
 				853F50552752F50E00ED984B /* LaunchScreen.storyboard */,
 				853F50582752F50E00ED984B /* Info.plist */,
+			);
+			path = Lembretes;
+			sourceTree = "<group>";
+		};
+		85AD74002764F63700411633 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				853F505E2752F54800ED984B /* Lembrete.swift */,
-				853F50602753053400ED984B /* LembreteCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85AD74012764F64100411633 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85AD74032764F76100411633 /* DataSource */,
+				853F504E2752F50D00ED984B /* ViewController.swift */,
 				853F506427532D1900ED984B /* DetalheLembreteViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		85AD74022764F66200411633 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				853F50502752F50D00ED984B /* Main.storyboard */,
+				853F50602753053400ED984B /* LembreteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85AD74032764F76100411633 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
 				851B24142753BEF100291A0D /* LembreteDataSource.swift */,
 				851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */,
 			);
-			path = Lembretes;
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
