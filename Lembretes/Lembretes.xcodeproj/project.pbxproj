@@ -7,35 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		854494B1274B36C20090DE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B0274B36C20090DE05 /* AppDelegate.swift */; };
-		854494B3274B36C20090DE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B2274B36C20090DE05 /* SceneDelegate.swift */; };
-		854494B5274B36C20090DE05 /* ListaLembreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494B4274B36C20090DE05 /* ListaLembreteViewController.swift */; };
-		854494B8274B36C20090DE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854494B6274B36C20090DE05 /* Main.storyboard */; };
-		854494BA274B36C40090DE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854494B9274B36C40090DE05 /* Assets.xcassets */; };
-		854494BD274B36C40090DE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854494BB274B36C40090DE05 /* LaunchScreen.storyboard */; };
-		854494C5274B37270090DE05 /* Lembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494C4274B37270090DE05 /* Lembrete.swift */; };
-		854494C7274B4AAB0090DE05 /* LembreteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494C6274B4AAB0090DE05 /* LembreteCell.swift */; };
-		854494C9274B562F0090DE05 /* DetalheLembreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494C8274B562F0090DE05 /* DetalheLembreteViewController.swift */; };
-		854494CB274B5D690090DE05 /* ListaLembreteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854494CA274B5D690090DE05 /* ListaLembreteDataSource.swift */; };
+		851B24152753BEF100291A0D /* LembreteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B24142753BEF100291A0D /* LembreteDataSource.swift */; };
+		851B24172753BFC900291A0D /* DetalheLembreteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */; };
+		853F504B2752F50D00ED984B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F504A2752F50D00ED984B /* AppDelegate.swift */; };
+		853F504D2752F50D00ED984B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F504C2752F50D00ED984B /* SceneDelegate.swift */; };
+		853F504F2752F50D00ED984B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F504E2752F50D00ED984B /* ViewController.swift */; };
+		853F50522752F50D00ED984B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853F50502752F50D00ED984B /* Main.storyboard */; };
+		853F50542752F50E00ED984B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853F50532752F50E00ED984B /* Assets.xcassets */; };
+		853F50572752F50E00ED984B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853F50552752F50E00ED984B /* LaunchScreen.storyboard */; };
+		853F505F2752F54800ED984B /* Lembrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F505E2752F54800ED984B /* Lembrete.swift */; };
+		853F50612753053400ED984B /* LembreteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F50602753053400ED984B /* LembreteCell.swift */; };
+		853F506527532D1900ED984B /* DetalheLembreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F506427532D1900ED984B /* DetalheLembreteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		854494AD274B36C20090DE05 /* Lembretes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lembretes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		854494B0274B36C20090DE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		854494B2274B36C20090DE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		854494B4274B36C20090DE05 /* ListaLembreteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLembreteViewController.swift; sourceTree = "<group>"; };
-		854494B7274B36C20090DE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		854494B9274B36C40090DE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		854494BC274B36C40090DE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		854494BE274B36C40090DE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		854494C4274B37270090DE05 /* Lembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lembrete.swift; sourceTree = "<group>"; };
-		854494C6274B4AAB0090DE05 /* LembreteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteCell.swift; sourceTree = "<group>"; };
-		854494C8274B562F0090DE05 /* DetalheLembreteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheLembreteViewController.swift; sourceTree = "<group>"; };
-		854494CA274B5D690090DE05 /* ListaLembreteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLembreteDataSource.swift; sourceTree = "<group>"; };
+		851B24142753BEF100291A0D /* LembreteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteDataSource.swift; sourceTree = "<group>"; };
+		851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheLembreteDataSource.swift; sourceTree = "<group>"; };
+		853F50472752F50D00ED984B /* Lembretes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lembretes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853F504A2752F50D00ED984B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		853F504C2752F50D00ED984B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		853F504E2752F50D00ED984B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		853F50512752F50D00ED984B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853F50532752F50E00ED984B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853F50562752F50E00ED984B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853F50582752F50E00ED984B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853F505E2752F54800ED984B /* Lembrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lembrete.swift; sourceTree = "<group>"; };
+		853F50602753053400ED984B /* LembreteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteCell.swift; sourceTree = "<group>"; };
+		853F506427532D1900ED984B /* DetalheLembreteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheLembreteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		854494AA274B36C20090DE05 /* Frameworks */ = {
+		853F50442752F50D00ED984B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,50 +47,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		854494A4274B36C10090DE05 = {
+		853F503E2752F50D00ED984B = {
 			isa = PBXGroup;
 			children = (
-				854494AF274B36C20090DE05 /* Lembretes */,
-				854494AE274B36C20090DE05 /* Products */,
+				853F50492752F50D00ED984B /* Lembretes */,
+				853F50482752F50D00ED984B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		854494AE274B36C20090DE05 /* Products */ = {
+		853F50482752F50D00ED984B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				854494AD274B36C20090DE05 /* Lembretes.app */,
+				853F50472752F50D00ED984B /* Lembretes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		854494AF274B36C20090DE05 /* Lembretes */ = {
+		853F50492752F50D00ED984B /* Lembretes */ = {
 			isa = PBXGroup;
 			children = (
-				854494B0274B36C20090DE05 /* AppDelegate.swift */,
-				854494B2274B36C20090DE05 /* SceneDelegate.swift */,
-				854494B4274B36C20090DE05 /* ListaLembreteViewController.swift */,
-				854494B6274B36C20090DE05 /* Main.storyboard */,
-				854494B9274B36C40090DE05 /* Assets.xcassets */,
-				854494BB274B36C40090DE05 /* LaunchScreen.storyboard */,
-				854494BE274B36C40090DE05 /* Info.plist */,
-				854494C4274B37270090DE05 /* Lembrete.swift */,
-				854494C6274B4AAB0090DE05 /* LembreteCell.swift */,
-				854494C8274B562F0090DE05 /* DetalheLembreteViewController.swift */,
-				854494CA274B5D690090DE05 /* ListaLembreteDataSource.swift */,
+				85AD74022764F66200411633 /* View */,
+				85AD74012764F64100411633 /* ViewController */,
+				85AD74002764F63700411633 /* Model */,
+				853F504A2752F50D00ED984B /* AppDelegate.swift */,
+				853F504C2752F50D00ED984B /* SceneDelegate.swift */,
+				853F50532752F50E00ED984B /* Assets.xcassets */,
+				853F50552752F50E00ED984B /* LaunchScreen.storyboard */,
+				853F50582752F50E00ED984B /* Info.plist */,
 			);
 			path = Lembretes;
+			sourceTree = "<group>";
+		};
+		85AD74002764F63700411633 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				853F505E2752F54800ED984B /* Lembrete.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85AD74012764F64100411633 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85AD74032764F76100411633 /* DataSource */,
+				853F504E2752F50D00ED984B /* ViewController.swift */,
+				853F506427532D1900ED984B /* DetalheLembreteViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		85AD74022764F66200411633 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				853F50502752F50D00ED984B /* Main.storyboard */,
+				853F50602753053400ED984B /* LembreteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85AD74032764F76100411633 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				851B24142753BEF100291A0D /* LembreteDataSource.swift */,
+				851B24162753BFC900291A0D /* DetalheLembreteDataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		854494AC274B36C20090DE05 /* Lembretes */ = {
+		853F50462752F50D00ED984B /* Lembretes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 854494C1274B36C40090DE05 /* Build configuration list for PBXNativeTarget "Lembretes" */;
+			buildConfigurationList = 853F505B2752F50E00ED984B /* Build configuration list for PBXNativeTarget "Lembretes" */;
 			buildPhases = (
-				854494A9274B36C20090DE05 /* Sources */,
-				854494AA274B36C20090DE05 /* Frameworks */,
-				854494AB274B36C20090DE05 /* Resources */,
+				853F50432752F50D00ED984B /* Sources */,
+				853F50442752F50D00ED984B /* Frameworks */,
+				853F50452752F50D00ED984B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,24 +131,24 @@
 			);
 			name = Lembretes;
 			productName = Lembretes;
-			productReference = 854494AD274B36C20090DE05 /* Lembretes.app */;
+			productReference = 853F50472752F50D00ED984B /* Lembretes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		854494A5274B36C10090DE05 /* Project object */ = {
+		853F503F2752F50D00ED984B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					854494AC274B36C20090DE05 = {
+					853F50462752F50D00ED984B = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 854494A8274B36C10090DE05 /* Build configuration list for PBXProject "Lembretes" */;
+			buildConfigurationList = 853F50422752F50D00ED984B /* Build configuration list for PBXProject "Lembretes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,59 +156,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 854494A4274B36C10090DE05;
-			productRefGroup = 854494AE274B36C20090DE05 /* Products */;
+			mainGroup = 853F503E2752F50D00ED984B;
+			productRefGroup = 853F50482752F50D00ED984B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				854494AC274B36C20090DE05 /* Lembretes */,
+				853F50462752F50D00ED984B /* Lembretes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		854494AB274B36C20090DE05 /* Resources */ = {
+		853F50452752F50D00ED984B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854494BD274B36C40090DE05 /* LaunchScreen.storyboard in Resources */,
-				854494BA274B36C40090DE05 /* Assets.xcassets in Resources */,
-				854494B8274B36C20090DE05 /* Main.storyboard in Resources */,
+				853F50572752F50E00ED984B /* LaunchScreen.storyboard in Resources */,
+				853F50542752F50E00ED984B /* Assets.xcassets in Resources */,
+				853F50522752F50D00ED984B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		854494A9274B36C20090DE05 /* Sources */ = {
+		853F50432752F50D00ED984B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854494B5274B36C20090DE05 /* ListaLembreteViewController.swift in Sources */,
-				854494C5274B37270090DE05 /* Lembrete.swift in Sources */,
-				854494B1274B36C20090DE05 /* AppDelegate.swift in Sources */,
-				854494C7274B4AAB0090DE05 /* LembreteCell.swift in Sources */,
-				854494C9274B562F0090DE05 /* DetalheLembreteViewController.swift in Sources */,
-				854494CB274B5D690090DE05 /* ListaLembreteDataSource.swift in Sources */,
-				854494B3274B36C20090DE05 /* SceneDelegate.swift in Sources */,
+				851B24152753BEF100291A0D /* LembreteDataSource.swift in Sources */,
+				853F504F2752F50D00ED984B /* ViewController.swift in Sources */,
+				853F505F2752F54800ED984B /* Lembrete.swift in Sources */,
+				853F504B2752F50D00ED984B /* AppDelegate.swift in Sources */,
+				851B24172753BFC900291A0D /* DetalheLembreteDataSource.swift in Sources */,
+				853F50612753053400ED984B /* LembreteCell.swift in Sources */,
+				853F506527532D1900ED984B /* DetalheLembreteViewController.swift in Sources */,
+				853F504D2752F50D00ED984B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		854494B6274B36C20090DE05 /* Main.storyboard */ = {
+		853F50502752F50D00ED984B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				854494B7274B36C20090DE05 /* Base */,
+				853F50512752F50D00ED984B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		854494BB274B36C40090DE05 /* LaunchScreen.storyboard */ = {
+		853F50552752F50E00ED984B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				854494BC274B36C40090DE05 /* Base */,
+				853F50562752F50E00ED984B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +217,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		854494BF274B36C40090DE05 /* Debug */ = {
+		853F50592752F50E00ED984B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		854494C0274B36C40090DE05 /* Release */ = {
+		853F505A2752F50E00ED984B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +333,7 @@
 			};
 			name = Release;
 		};
-		854494C2274B36C40090DE05 /* Debug */ = {
+		853F505C2752F50E00ED984B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -316,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		854494C3274B36C40090DE05 /* Release */ = {
+		853F505D2752F50E00ED984B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,25 +374,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		854494A8274B36C10090DE05 /* Build configuration list for PBXProject "Lembretes" */ = {
+		853F50422752F50D00ED984B /* Build configuration list for PBXProject "Lembretes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				854494BF274B36C40090DE05 /* Debug */,
-				854494C0274B36C40090DE05 /* Release */,
+				853F50592752F50E00ED984B /* Debug */,
+				853F505A2752F50E00ED984B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		854494C1274B36C40090DE05 /* Build configuration list for PBXNativeTarget "Lembretes" */ = {
+		853F505B2752F50E00ED984B /* Build configuration list for PBXNativeTarget "Lembretes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				854494C2274B36C40090DE05 /* Debug */,
-				854494C3274B36C40090DE05 /* Release */,
+				853F505C2752F50E00ED984B /* Debug */,
+				853F505D2752F50E00ED984B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 854494A5274B36C10090DE05 /* Project object */;
+	rootObject = 853F503F2752F50D00ED984B /* Project object */;
 }
